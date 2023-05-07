@@ -25,7 +25,7 @@ function createFiles(folder, items) {
 
 async function run() {
     const map = [['films', 'film'], ['people', 'people'], ['planets', 'planet'], ['species', 'species'], ['starships', 'starship', 'vehicles', 'vehicle']]
-    map.forEach( async ([endpoint, folder])=>{
+    map.forEach(async ([endpoint, folder]) => {
         const items = await fetchData(endpoint);
         createFiles(folder, items);
     })
