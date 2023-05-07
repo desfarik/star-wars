@@ -2,12 +2,8 @@
 
 StarWars models open-source REST API
 
-----
-
 ## Base url
 `https://desfarik.github.io/star-wars/api`
-
-----
 
 ## Routes
 - `film` -- The URL root for Film resources
@@ -15,8 +11,6 @@ StarWars models open-source REST API
 -  `planet` -- The URL root for Planet resources
 -  `starship` -- The URL root for Starships resources
 -  `vehicle` -- The URL root for Vehicles resources
-
-----
 
 ## Examples
 
